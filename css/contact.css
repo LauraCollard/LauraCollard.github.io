@@ -1,0 +1,93 @@
+body {
+    font-size: 16px;
+}
+body, html {
+    margin: 0;
+}
+.navbar {
+    padding: 10px 0 10px 0;
+    font-size: 22px;
+    background-color: #4A5B6B;
+    border-color: #4A5B6B;
+}
+.navbar-brand {
+    font-size: 29px; 
+}
+.nav-item {
+    padding-right: 18px;
+}
+.contact-btn{
+    background-color :#FFA000;
+}
+.custom-toggler.navbar-toggler {
+    border: 2px solid rgb(255,255,255);
+    padding: 6px 10px 5px 10px;
+    margin-top: 6px;
+}
+section{
+    margin-bottom: 120px;
+}
+.contact{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.content{
+    text-align: justify;
+}
+.fa-comments{
+    font-size: 25px;
+    color: white;
+    background-color: #428BD4;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+h1{
+    font-size: 55px;
+}
+.construction{
+    margin-top:200px;
+}
+form{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+textarea {
+    height: 146px;
+}
+.btn{
+    color:white;
+    background-color: #428BD4;
+    border-color: #428BD4;
+    margin: 30px 5px 0 5px;
+    transition: all 0.1s ease-in-out;
+}
+.btn:hover{
+    background-color: #FFA000;
+    border-color: #FFA000;
+}
+footer {
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
+    width: 100%;
+    background-color: #4A5B6B;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    margin-top: 20px;
+}
+.social-link {
+    color: white;
+    font-size: 25px;
+    transition: all 0.1s ease-in-out;
+}
+.social-link:hover{
+    color: #428BD4;
+    text-decoration: None;
+}
+.copyright {
+    font-size: 10px;
+    padding-top: 2px;
+}

@@ -1,0 +1,100 @@
+body {
+    font-size: 16px;
+    background-color: #428BD4;
+    color:white;
+}
+body, html {
+    /* height: 100%; */
+    margin: 0;
+}
+
+.navbar {
+    padding: 10px 0 10px 0;
+    font-size: 22px;
+    background-color: #4A5B6B;
+    border-color: #4A5B6B;
+}
+.navbar-brand {
+    font-size: 29px; 
+}
+.nav-item {
+    padding-right: 18px;
+    /* padding-top: 22px; */
+}
+.home-btn{
+    background-color :#FFA000;
+}
+.custom-toggler.navbar-toggler {
+    border: 2px solid rgb(255,255,255);
+    padding: 6px 10px 5px 10px;
+    margin-top: 6px;
+}
+section{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 100px;
+}
+.home{
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-top: 10px;
+}
+.pages{
+    margin-top: 120px;
+}
+.content{
+    text-align: center;
+}
+.content a{
+    color:white;
+    text-align: center;
+}
+.content a:hover{
+    text-decoration: none;
+}
+.page-fa{
+    font-size: 25px;
+    background-color: #4A5B6B;
+    height: 100px;
+    width: 100px;
+    color: white;
+    border-radius: 50%;
+    padding: 29px 30px 30px 28px;
+    /* padding-left: 15px; */
+    margin-bottom: 10px;
+}
+.page-fa:hover{
+    background-color: #FFA000;
+    border-color: #FFA000;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4A5B6B;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    margin-top: 20px;
+}
+.social-link {
+    color: white;
+    font-size: 25px;
+    transition: all 0.1s ease-in-out;
+}
+.social-link:hover{
+    color: #428BD4;
+    text-decoration: None;
+}
+.copyright {
+    font-size: 10px;
+    padding-top: 2px;
+}
